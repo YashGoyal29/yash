@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Organizer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 0 0 50px 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        /* Section Styles */
+        section {
+            margin: 40px 0;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+        }
+        section h2 {
+            color: #2575fc;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #6a11cb;
+            display: inline-block;
+        }
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin: 10px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.1em;
+        }
+        ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: "✔";
+            color: #2575fc;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin: 40px 0 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Wall Organizer</h1>
+            <p>Redefining Space and Organization</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container">
+        <h2>About the Product</h2>
+        <p>The Wall Organizer is a multifunctional, space-saving solution designed to keep your essentials in one place while maintaining a sleek and modern aesthetic. It is perfect for homes, offices, or study spaces, ensuring everything you need is within easy reach.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container">
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Study Hub:</strong> A dedicated section to organize books and stationery, doubling as a shelf.</li>
+            <li><strong>Hook and Hang:</strong> A versatile accessory holder for keys, chargers, and small items.</li>
+            <li><strong>Mind Map Surface:</strong> An acrylic board for writing to-do lists, timetables, and reminders.</li>
+            <li><strong>Clothing Corner:</strong> Hooks for hanging clothes, allowing them to dry under a fan efficiently.</li>
+        </ul>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="container">
+        <h2>Why Choose Us?</h2>
+        <p>Our design combines aesthetics with functionality, making it an ideal choice for those seeking organization and elegance. Built with eco-friendly materials, the wall organizer is durable, practical, and customizable to fit your needs.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us at: <strong>group29.dip@projectmail.com</strong></p>
+        <p>&copy; 2024 Wall Organizer Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
